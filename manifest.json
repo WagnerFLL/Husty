@@ -1,0 +1,39 @@
+ // {
+ //    "name": "Husty",
+ //    "version": "1.0",
+ //    "description": "My wonderful extension!",
+ //    "background": {
+ //        "scripts": [
+ //            "background.js"
+ //        ],
+ //        "persistent": false
+ //    },
+ //    "page_action": {
+ //        "default_popup": "popup.html",
+ //        "default_icon": {
+ //            "32": "images/img32.png",
+ //            "128": "images/img128.png"
+ //        }
+ //    },
+ //    "icons": {
+ //        "32": "images/img32.png",
+ //        "128": "images/img128.png"
+ //    },
+ //    "manifest_version": 2
+ //  }
+  {
+    "manifest_version": 2,
+
+    "name": "Husty",
+    "description": "My wonderful extension!",
+    "version": "1.0",
+    
+    "browser_action": {
+        "default_icon": "icone.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab"
+    ]
+  }
