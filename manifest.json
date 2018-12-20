@@ -10,7 +10,15 @@
         "default_popup": "popup.html"
     },
 
+    "background": {
+        "scripts": ["popup.js"],
+        "persistent": true
+    },
+
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "tabs",
+        "http://*/",
+        "https://*/"
     ]
 }
